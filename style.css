@@ -4,9 +4,15 @@
 .card{
   height: 650px;
 }
-
 #bottom{
   position: absolute;
   bottom: 15px;
   right: 15px;
+  font-weight: bold;
 }
+#info_bottom{
+  position: absolute;
+  bottom: 15px;
+  right: 100px;
+}
+
