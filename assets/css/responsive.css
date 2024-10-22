@@ -37,6 +37,10 @@ margin: 20px;
 .nav-layout.active{
 display: flex;
 }
+.list-container{
+
+    justify-content: center;
+}
 }
 
 @media (min-width: 740px) and (max-width: 1023px){
