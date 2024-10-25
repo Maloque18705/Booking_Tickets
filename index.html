@@ -93,13 +93,13 @@
 
     <!-- Content -->
   
-    <div class="container-fluid text-center" id="container">
+    <div class="container-fluid text-center section" id="container">
       <div class="row content">
         <div class="col-sm-2 sidenav"></div>
         <div class="col-sm-8">
           <!-- Nav-Tabs -->
           <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="padding-top: 20px">
-            <li class="nav-item" role="presentation">
+            <li class="nav-item movie-type" role="presentation">
               <button class="nav-link active" id="pills-nowshowing-tab" data-bs-toggle="pill" data-bs-target="#pills-nowshowing" type="button" role="tab" aria-controls="nowshowing" aria-selected="true">Phim Đang Chiếu</button>
             </li>
             <li class="nav-item" role="presentation">
@@ -115,7 +115,7 @@
                <div class="row row-cols-auto list-container">
                 <!-- Movie 1 -->
                 <div class="col">
-                  <div class="card" style="width: 12rem">
+                  <div class="card movie-selection" style="width: 12rem">
                     <div class="img-container">
                       <img src="./images/joker2.jpg" class="card-img-top" alt="Joker" />
                     </div>
@@ -750,57 +750,56 @@
         </div>
       </div>
     </div>
-
-    <!-- Footer -->
-    <div class="container">
-      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-3 my-3 border-top">
-        <div class="col mb-3">
-          <a href="./index.html">
-            <img src="./assets/img/logo.webp" alt="" />
-          </a>
-          <p class="text-muted" style="font-size: 14px">
-            Trung Tâm Chiếu Phim Quốc Gia
-          </p>
-        </div>
-        <div class="col mb-3"></div>
-        <div class="col mb-3">
-          <h5>Giới thiệu</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#">Về chúng tôi</a></li>
-            <li class="nav-item mb-2"><a href="#">Thỏa thuận sử dụng</a></li>
-            <li class="nav-item mb-2"><a href="#">Quy chế hoạt động</a></li>
-            <li class="nav-item mb-2"><a href="#">Chính sách bảo mật</a></li>
-          </ul>
-        </div>
-        <div class="col mb-3">
-          <h5>Góc điện ảnh</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#">Thể loại phim</a></li>
-            <li class="nav-item mb-2"><a href="#">Bình luận phim</a></li>
-            <li class="nav-item mb-2"><a href="#">Phim hay tháng</a></li>
-            <li class="nav-item mb-2"><a href="#">Phim IMAX</a></li>
-          </ul>
-        </div>
-        <div class="col mb-3">
-          <h5>Hỗ trợ</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#">Góp ý</a></li>
-            <li class="nav-item mb-2"><a href="#">Sale & Services</a></li>
-            <li class="nav-item mb-2"><a href="#">Tuyển dụng</a></li>
-            <li class="nav-item mb-2"><a href="#">FAQ</a></li>
-          </ul>
-        </div>
-      </footer>
-      <hr />
-      <div class="cinema-info" style="text-align: center">
-        <p>Trung Tâm Chiếu Phim Quốc Gia</p>
-        <p>Địa Chỉ: 87 Láng Hạ, Quận Ba Đình, TP. Hà Nội</p>
-        <p>Điện Thoại: 024.35141791</p>
-        <br />
-        <p>&copy; Copyright 2024</p>
-      </div>
-    </div>
     <script src="./assets/js/slide.js"></script>
+  </div>
+  <!-- Footer -->
+  <div class="footer">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-3 my-3 border-top">
+      <div class="col mb-3 footer-logo">
+        <a href="./index.html">
+          <img src="./assets/img/logo.webp" alt="" />
+        </a>
+        <p class="text-muted" style="font-size: 14px">
+          Trung Tâm Chiếu Phim Quốc Gia
+        </p>
+      </div>
+      <div class="col mb-3"></div>
+      <div class="col mb-3">
+        <h5>Giới thiệu</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#">Về chúng tôi</a></li>
+          <li class="nav-item mb-2"><a href="#">Thỏa thuận sử dụng</a></li>
+          <li class="nav-item mb-2"><a href="#">Quy chế hoạt động</a></li>
+          <li class="nav-item mb-2"><a href="#">Chính sách bảo mật</a></li>
+        </ul>
+      </div>
+      <div class="col mb-3">
+        <h5>Góc điện ảnh</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#">Thể loại phim</a></li>
+          <li class="nav-item mb-2"><a href="#">Bình luận phim</a></li>
+          <li class="nav-item mb-2"><a href="#">Phim hay tháng</a></li>
+          <li class="nav-item mb-2"><a href="#">Phim IMAX</a></li>
+        </ul>
+      </div>
+      <div class="col mb-3">
+        <h5>Hỗ trợ</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#">Góp ý</a></li>
+          <li class="nav-item mb-2"><a href="#">Sale & Services</a></li>
+          <li class="nav-item mb-2"><a href="#">Tuyển dụng</a></li>
+          <li class="nav-item mb-2"><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+    </footer>
+    <hr />
+    <div class="cinema-info" style="text-align: center">
+      <p>Trung Tâm Chiếu Phim Quốc Gia</p>
+      <p>Địa Chỉ: 87 Láng Hạ, Quận Ba Đình, TP. Hà Nội</p>
+      <p>Điện Thoại: 024.35141791</p>
+      <br />
+      <p>&copy; Copyright 2024</p>
+    </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
