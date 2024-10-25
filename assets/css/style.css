@@ -294,6 +294,10 @@ body {
 .col {
   padding: 15px;
 }
+.col .card{
+  background-color: #262a30;
+  box-shadow: 4px 4px 20px 10px #0c0c0c;
+}
 .card-title {
   text-align: left;
 }
@@ -303,6 +307,12 @@ body {
 }
 .card-body {
   height: 250px;
+}
+.card-body h5{
+  color: #dddcdc;
+}
+.card-text{
+  color: #dddcdc;
 }
 .img-container img {
   height: 280px;
@@ -348,18 +358,18 @@ h4 {
   font-size: 13px;
 }
 
-.container ul li {
+.footer ul li {
   list-style-type: none;
   text-decoration: none;
   margin: 0;
   padding: 0px;
 }
-.container a {
+.footer a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
   text-align: left;
 }
-.container a:hover {
+.footer a:hover {
   color: black;
 }
 .cinema-info {
@@ -380,7 +390,10 @@ h4 {
 	transition: .3s ease-in-out;
   cursor: pointer;
 }
-
+.poster img{
+  width: 100%;
+  height: auto;
+}
 .poster-container:hover .poster{
   -webkit-filter: grayscale(100%) blur(3px);
 	filter: grayscale(100%) blur(3px);
@@ -398,6 +411,9 @@ h4 {
   border-radius: 5px;
   opacity: 0;
   transition: opacity 0.3s ease;
+}
+.movie-type .nav-link{
+  color:#1A1D23;
 }
 .poster-container:hover .hover-button {
   opacity: 1;
@@ -461,4 +477,6 @@ iframe{
   background-color: #DC2626;
 }
 
-
+.footer-logo img, .footer-logo p{
+  margin-left: 50px;
+}
