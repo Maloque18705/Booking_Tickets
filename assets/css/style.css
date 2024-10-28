@@ -452,10 +452,43 @@ iframe{
 .nav-pills .nav-item .nav-link.active {
   background-color: #DC2626;
 }
+
+
+.formatpick{
+  display: flex;
+  flex-flow: wrap;
+  list-style-type: none;
+  text-decoration: none;
+  margin-left: 0;
+  padding: 0;
+}
+.formatpick .btn{
+  color: white;
+  border-color: #3c3e42;
+  font-size: medium;
+  width: 150px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+.formatpick .btn:hover{
+  background-color: #DC2626;
+  border-color: #DC2626;
+}
+.formatpick .btn.active{
+  background-color: #DC2626;
+}
+
 .time-container{
+  overflow: hidden;
   display: flex;
   flex-flow:wrap;
   padding-bottom: 20px;
+}
+.time-container .filterDiv{
+  display: none;
+}
+.time-container .show{
+  display: block;
 }
 .time-container button{
   margin-right: 20px;
@@ -473,10 +506,94 @@ iframe{
   background-color: #DC2626;
   border-color: #DC2626;
 }
-.time-container button:active{
+
+/* .time-container button:active{
   background-color: #DC2626;
-}
+} */
 
 .footer-logo img, .footer-logo p{
   margin-left: 50px;
+}
+
+/* price */
+.price-heading p{
+  color: white;
+  text-align: center;
+}
+.price-heading b{
+  font-size: 25px;
+}
+.price-container p{
+  color: white;
+}
+
+.table-price table{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 13px;
+  text-align: center;
+}
+
+.table-price table, .table-price th, .table-price td {
+  border: 1px solid #1E293B;
+  border-collapse: collapse;
+
+}
+
+.table-price th, .table-price td{
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+}
+
+.table-price .table-head{
+  text-align: center;
+}
+
+th.col1{
+  width: 200px;
+}
+td.col1{
+  text-align: left;
+  padding-left: 10px;
+}
+th.col2, th.col3{
+  width: 400px;
+
+}
+
+
+
+.table-price th , .table-price td{
+  color: #94A3B8;
+}
+
+td.vipseat{
+  color: #EAB315;
+}
+td.sweetbox{
+  color: #EF4444;
+}
+td.white{
+  color: white;
+}
+
+p.caution-text{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #6d727c;
+  font-size: 13px;
+}
+
+.condition{
+  font-size: 15px;
+  color: white;
+}
+
+/* introduction */
+.description p{
+  color: white;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
