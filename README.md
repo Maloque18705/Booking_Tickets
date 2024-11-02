@@ -32,9 +32,9 @@
     <h3><b>Các tính năng</b></h3>
     <p> 
         <ul>
-            <li>Đăng ký tài khoản <br> <img src="./web_demo/signin.jfif" alt="" style="height: 300px; width:auto"> </li>
-            <li>Đăng nhập <br> <img src="./web_demo/login.jfif" alt="" style="height: 300px; width:auto"></li>
-            <li>Đặt vé xem phim <img src="./web_demo/booking.jfif" alt="" style="height: 300px; width:auto"></li>
+            <li>Đăng ký tài khoản <br> <img src="./web_demo/signin.jfif" alt="" style="height: 600px; width:auto"> </li>
+            <li>Đăng nhập <br> <img src="./web_demo/login.jfif" alt="" style="height: 600px; width:auto"></li>
+            <li>Đặt vé xem phim <br> <img src="./web_demo/booking.jfif" alt="" style="height: 600px; width:auto"></li>
         </ul>
     </p>
     <h3>Các website tham khảo: </h3>
